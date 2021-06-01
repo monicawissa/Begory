@@ -27,8 +27,6 @@ class ShowLevelAttendActivity : BaseActivity1() , CompoundButton.OnCheckedChange
     private lateinit var binding: ActivityShowLevelAttendanceBinding
     private val mLevelsList: ArrayList<Level> = ArrayList<Level>()
     private lateinit var  list :List<Int>
-//        val list = listOf(R.string.lev_KG,R.string.lev_1,R.string.lev_2,R.string.lev_3,R.string.lev_4
-//                ,R.string.lev_5,R.string.lev_6,R.string.lev_preparatory,R.string.lev_secondary,R.string.lev_college, R.string.lev_Grad)
 
     private  val showLevelAttendViewModel: ShowLevelAttendViewModel by viewModels()
     var recyclerViewAdapter: ShowLevelAttendanceAdapter? = null

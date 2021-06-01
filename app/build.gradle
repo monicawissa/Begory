@@ -62,6 +62,8 @@ dependencies {
     implementation 'com.firebase:firebase-client-android:2.3.1'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'me.dm7.barcodescanner:zxing:1.9.8'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
     //    Add Zxing library to generate barcode
     implementation 'com.google.zxing:core:3.2.1'

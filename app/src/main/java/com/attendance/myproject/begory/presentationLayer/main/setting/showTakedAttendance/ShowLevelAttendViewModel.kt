@@ -34,9 +34,9 @@ class ShowLevelAttendViewModel  @ViewModelInject constructor(private val appRepo
         }
 
         override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-            var levelId= ((parent!!.getItemAtPosition(position)) as Level).levelId!!
-            if(position!=0){
-                studentLevel = FirebaseFilterType.fbConvert(levelId)
+            var levelId= FirebaseFilterType.fbConvert(((parent!!.getItemAtPosition(position)) as Level).levelId!!)
+            if(levelId!=FirebaseFilterType.LevelFilterType.no){
+                studentLevel = levelId
                 mListLast.clear()
                 mStudentList.clear()
                 _mStudentAttendancesList.value=true
@@ -102,8 +102,9 @@ class ShowLevelAttendViewModel  @ViewModelInject constructor(private val appRepo
 
     var mList: ArrayList<StudentWithTotalAttendanceCount> = ArrayList()
     private fun manageStudentWithAttendance() {
+        mList.clear()
         for (i in mStudentList.indices) {
-            val studentWithAttendance = StudentWithTotalAttendanceCount()
+            var studentWithAttendance = StudentWithTotalAttendanceCount()
             studentWithAttendance.id=(mStudentList[i].id)
             studentWithAttendance.name=(mStudentList[i].name)
 
@@ -156,10 +157,11 @@ class ShowLevelAttendViewModel  @ViewModelInject constructor(private val appRepo
                     }
                 }
             }
+
             mList.add(studentWithAttendance)
         }
-        mListLast!!.clear()
-        mListLast!!.addAll(mList)
+        mListLast.clear()
+        mListLast.addAll(mList)
         _mStudentAttendancesList.value=true
     }
 

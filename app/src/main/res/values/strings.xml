@@ -74,6 +74,8 @@
     <string name="id_found">كود المخدوم  موجود من قبل</string>
     <string name="added">تمت الإضافة</string>
     <string name="edited">تم التعديل</string>
+    <string name="deleted">تم الحذف</string>
+
     <string name="year">السنة</string>
     <string name="choose_level">اختر المرحلة</string>
     <string name="deactive">إيقاف</string>
@@ -137,4 +139,14 @@
     <string name="title_attendance">attendance</string>
     <string name="title_notifications">notification</string>
     <string name="no_student">لا يوجد مخدومين ..نرجوا اضافتهم اولا</string>
+    <string name="no_gift">لا يوجد عروض هدايا حاليا</string>
+    <string name="no_booking_gift">لا يوجد حجوزات حاليا</string>
+    <string name="available_points">نقاط متاحه</string>
+    <string name="book_now">تأكيد الحجز</string>
+    <string name="book">احجز</string>
+    <string name="booked">محجوز</string>
+    <string name="cancel_booking">الغاء الحجز</string>
+    <string name="booked_success">تم الحجز</string>
+    <string name="points_not_enough">عفوا النقاط غير كافية</string>
+    <string name="point">نقطة</string>
 </resources>

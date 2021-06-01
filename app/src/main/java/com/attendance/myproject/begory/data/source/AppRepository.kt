@@ -1,6 +1,7 @@
 package com.attendance.myproject.begory.data.source
 import com.attendance.myproject.begory.R
 import com.attendance.myproject.begory.data.Models.Attendance
+import com.attendance.myproject.begory.data.Models.Gift
 import com.attendance.myproject.begory.data.Models.User
 import com.attendance.myproject.begory.data.Models.remote.FirebaseFilterType
 import com.attendance.myproject.begory.data.source.local.prefs.IPreferencesHelper
@@ -39,6 +40,41 @@ class AppRepository @Inject constructor(private val mRemoteDataSource: IRemoteDa
     override fun setUserAsLoggedOut() {
         mIPreferencesHelper.setUserAsLoggedOut()
     }
+
+    override fun addGift(gift: Gift, level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.MessageCallback) {
+        mRemoteDataSource.addGift(gift,level,object :IRemoteDataSource.MessageCallback{
+            override fun onResponse(message: Int?) {
+                callback.onResponse(message)
+            }
+
+            override fun onDataNotAvailable(message: Int?) {
+                callback.onDataNotAvailable(message)
+            }
+
+        })    }
+
+    override fun updateGift(gift: Gift, level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.MessageCallback) {
+        mRemoteDataSource.updateGift(gift,level,object :IRemoteDataSource.MessageCallback{
+            override fun onResponse(message: Int?) {
+                callback.onResponse(message)
+            }
+
+            override fun onDataNotAvailable(message: Int?) {
+                callback.onDataNotAvailable(message)
+            }
+        })
+    }
+
+    override fun deleteGift(gift: Gift, level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.MessageCallback) {
+        mRemoteDataSource.deleteGift(gift,level,object :IRemoteDataSource.MessageCallback{
+            override fun onResponse(message: Int?) {
+                callback.onResponse(message)
+            }
+
+            override fun onDataNotAvailable(message: Int?) {
+                callback.onDataNotAvailable(message)
+            }
+        })    }
 
     override fun login(mobile: String, password: String, callback: IRemoteDataSource.LoginCallback) {
         mRemoteDataSource.login(mobile,password,object :IRemoteDataSource.LoginCallback{
@@ -169,6 +205,20 @@ class AppRepository @Inject constructor(private val mRemoteDataSource: IRemoteDa
         })
     }
 
+
+
+    override fun bookingGifts(level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.ShowBookingGiftsCallback) {
+        mRemoteDataSource.bookingGifts(level,object :IRemoteDataSource.ShowBookingGiftsCallback{
+            override fun onResponse(user: List<User>) {
+                callback.onResponse(user)
+            }
+
+            override fun onDataNotAvailable(message: Int?) {
+                callback.onDataNotAvailable(message)
+            }
+        })
+    }
+
     fun updatePassword(password: String, callback: IRemoteDataSource.MessageCallback) {
         val user=mIPreferencesHelper.getUser()!!
         user.password=password
@@ -183,4 +233,17 @@ class AppRepository @Inject constructor(private val mRemoteDataSource: IRemoteDa
             }
         })
     }
+    override fun filterGift(level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.ShowGiftsCallback) {
+        mRemoteDataSource.filterGift(level,object : IRemoteDataSource.ShowGiftsCallback{
+            override fun onResponse(gift: List<Gift>) {
+                callback.onResponse(gift)
+            }
+
+            override fun onDataNotAvailable(message: Int?) {
+                callback.onDataNotAvailable(message)
+            }
+        })
+
+    }
+
 }

@@ -24,17 +24,19 @@ import com.attendance.myproject.begory.presentationLayer.splash.SplashViewModel
 class FirebaseFilterType {
 
     companion object {
-    const val users = "Users"
+    const val selectedGifts = "SelectedGifts"
+        const val users = "Users"
+        const val gifts = "Gifts"
     const val studentAttendance = "StudentAttendances"
         fun fbConvert( i:Int):LevelFilterType=
             when(i) {
                 R.string.lev_Grad -> LevelFilterType.Grad
                 R.string.lev_college -> LevelFilterType.College
                 R.string.lev_Augustine -> LevelFilterType.Augustine
-                else -> LevelFilterType.Grad
+                else -> LevelFilterType.no
             }
     }
     enum class LevelFilterType {
-      College,Grad,Augustine
+      College,Grad,Augustine,no
     }
 }

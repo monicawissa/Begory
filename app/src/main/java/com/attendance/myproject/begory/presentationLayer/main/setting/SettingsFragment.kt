@@ -93,21 +93,6 @@ class SettingsFragment : Fragment() {
         mItems.add(R.string.m_add_admin)
         mItems.add(R.string.m_edit_admin)
         mItems.add(R.string.m_levels_attendance)
-//        } else {
-//            if (mAdmin.getLevels() != null) {
-//                for (i in 0 until mAdmin.getLevels().size()) {
-//                    if (mAdmin.getLevels().get(i).isSelected()) {
-//                        if (mAdmin.getLevels().get(i).getId().equals(FBConnenctions.CONST_LEVEL_2)) mItems.add(R.string.a_lev_2)
-//                        if (mAdmin.getLevels().get(i).getId().equals(FBConnenctions.CONST_LEVEL_1)) mItems.add(R.string.a_lev_1)
-//                        if (mAdmin.getLevels().get(i).getId().equals(FBConnenctions.CONST_LEVEL_4)) mItems.add(R.string.a_lev_4)
-//                        if (mAdmin.getLevels().get(i).getId().equals(FBConnenctions.CONST_LEVEL_3)) mItems.add(R.string.a_lev_3)
-//                        if (mAdmin.getLevels().get(i).getId().equals(FBConnenctions.CONST_LEVEL_6)) mItems.add(R.string.a_lev_6)
-//                        if (mAdmin.getLevels().get(i).getId().equals(FBConnenctions.CONST_LEVEL_5)) mItems.add(R.string.a_lev_5)
-//                    }
-//                }
-//            }
-//            mItems.add(R.string.m_show_results)
-//        }
         return mItems
     }
 

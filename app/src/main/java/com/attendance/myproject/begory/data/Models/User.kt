@@ -32,12 +32,13 @@ data class User (
         @SerializedName("studentLevel")
     var studentLevel: FirebaseFilterType.LevelFilterType?=null,
 
-        @SerializedName("balanceEqlomat")
-    var balanceEqlomat: Double? = 0.0,
-        @SerializedName("balanceBegory")
-    var balanceBegory: Double? = 0.0,
+        @SerializedName("price")
+    var price: Double? = 0.0,
+        @SerializedName("realPrice")
+    var realPrice: Double? = 0.0,
         @SerializedName("listOfAttendence")
-
     var listOfAttendence: Map<String,Attendance>? =null,
         @SerializedName("firstTime_ToLogin")
-    var firstTime_ToLogin:Boolean=true) : Serializable
+    var firstTime_ToLogin:Boolean=true,
+        @SerializedName("selectedGifts")
+        var selectedGifts: ArrayList<Gift>? = null)

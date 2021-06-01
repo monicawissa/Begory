@@ -1,6 +1,7 @@
 package com.attendance.myproject.begory.data.source.remote
 
 import com.attendance.myproject.begory.data.Models.Attendance
+import com.attendance.myproject.begory.data.Models.Gift
 import com.attendance.myproject.begory.data.Models.remote.FirebaseFilterType
 import com.attendance.myproject.begory.data.Models.User
 
@@ -18,6 +19,21 @@ public interface IRemoteDataSource {
         fun onResponse(message: Int?)
         fun onDataNotAvailable(message: Int?)
     }
+
+    interface ShowGiftsCallback {
+        fun onResponse(gift: List<Gift>)
+        fun onDataNotAvailable(message: Int?)
+    }
+    interface ShowBookingGiftsCallback {
+        fun onResponse(users: List<User>)
+        fun onDataNotAvailable(message: Int?)
+    }
+    fun addGift(gift: Gift,level: FirebaseFilterType.LevelFilterType
+                        , callback: IRemoteDataSource.MessageCallback)
+    fun updateGift(gift: Gift,level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.MessageCallback)
+
+    fun deleteGift(gift: Gift,level: FirebaseFilterType.LevelFilterType, callback: IRemoteDataSource.MessageCallback)
+
     fun login(mobile: String, password: String, callback: LoginCallback)
     fun registerStudent(user: User
                         , callback: IRemoteDataSource.MessageCallback)
@@ -31,6 +47,8 @@ public interface IRemoteDataSource {
     fun updatePassword(user: User,callback: IRemoteDataSource.LoginCallback)
     fun filterLevel(level: FirebaseFilterType.LevelFilterType, callback: UsersCallback)
     fun updateAttendance(listOfAttendence: List<Attendance>?, callback: MessageCallback)
+    fun filterGift(studentLevel: FirebaseFilterType.LevelFilterType, giftsCallback: IRemoteDataSource.ShowGiftsCallback)
+    fun bookingGifts(level: FirebaseFilterType.LevelFilterType, showBookingGiftsCallback: IRemoteDataSource.ShowBookingGiftsCallback)
 
 //    fun getTopRatedMovies(callback: LoadAllMoviesCallback)
 //    fun getMovieActors(callback: IResponseCast, movie_id: Int)
