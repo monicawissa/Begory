@@ -6,336 +6,336 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml
+8-->D:\church\begory2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="27" />
-9-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml
+9-->D:\church\begory2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:6:5-67
-11-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:6:22-64
+11-->D:\church\begory2\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\church\begory2\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:7:5-79
-12-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:7:22-76
+12-->D:\church\begory2\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\church\begory2\app\src\main\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:8:5-65
-13-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:8:22-62
+13-->D:\church\begory2\app\src\main\AndroidManifest.xml:8:5-65
+13-->D:\church\begory2\app\src\main\AndroidManifest.xml:8:22-62
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:9:5-79
-14-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:9:22-77
+14-->D:\church\begory2\app\src\main\AndroidManifest.xml:9:5-79
+14-->D:\church\begory2\app\src\main\AndroidManifest.xml:9:22-77
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:10:5-80
-15-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:10:22-78
+15-->D:\church\begory2\app\src\main\AndroidManifest.xml:10:5-80
+15-->D:\church\begory2\app\src\main\AndroidManifest.xml:10:22-78
 16
 17    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
 18    <uses-feature
-18-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
+18-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:24:5-26:36
 19        android:name="android.hardware.camera"
-19-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
+19-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:25:9-47
 20        android:required="false" />
-20-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
+20-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:26:9-33
 21    <uses-feature
-21-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
+21-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:27:5-29:36
 22        android:name="android.hardware.camera.front"
-22-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
+22-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:28:9-53
 23        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-23-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
+23-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:29:9-33
 24    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 25    <uses-feature
-25-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
+25-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:32:5-34:36
 26        android:name="android.hardware.camera.autofocus"
-26-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
+26-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:33:9-57
 27        android:required="false" />
-27-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
+27-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:34:9-33
 28    <uses-feature
-28-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
+28-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:35:5-37:36
 29        android:name="android.hardware.camera.flash"
-29-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
+29-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:36:9-53
 30        android:required="false" />
-30-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
+30-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:37:9-33
 31    <uses-feature
-31-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
+31-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:38:5-40:36
 32        android:name="android.hardware.screen.landscape"
-32-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
+32-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:39:9-57
 33        android:required="false" />
-33-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
+33-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:40:9-33
 34    <uses-feature
-34-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
+34-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:41:5-43:36
 35        android:name="android.hardware.wifi"
-35-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
+35-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:42:9-45
 36        android:required="false" />
-36-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
+36-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
 37
 38    <uses-permission android:name="android.permission.WAKE_LOCK" />
-38-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:24:5-68
-38-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:24:22-65
+38-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:24:5-68
+38-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:24:22-65
 39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-39-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:5-110
-39-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
+39-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:26:22-107
 40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 41
 42    <application
-42-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:13:5-76:19
+42-->D:\church\begory2\app\src\main\AndroidManifest.xml:13:5-76:19
 43        android:name="com.attendance.myproject.begory.MyApplication"
-43-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:14:9-38
+43-->D:\church\begory2\app\src\main\AndroidManifest.xml:14:9-38
 44        android:allowBackup="true"
-44-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:15:9-35
+44-->D:\church\begory2\app\src\main\AndroidManifest.xml:15:9-35
 45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-45-->[androidx.core:core:1.5.0-alpha02] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\780a2cdb1cb4fc13503b48818db2b490\core-1.5.0-alpha02\AndroidManifest.xml:24:18-86
+45-->[androidx.core:core:1.5.0-alpha02] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\780a2cdb1cb4fc13503b48818db2b490\core-1.5.0-alpha02\AndroidManifest.xml:24:18-86
 46        android:debuggable="true"
 47        android:icon="@mipmap/begory_icon"
-47-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:16:9-43
+47-->D:\church\begory2\app\src\main\AndroidManifest.xml:16:9-43
 48        android:label="@string/app_name"
-48-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:17:9-41
+48-->D:\church\begory2\app\src\main\AndroidManifest.xml:17:9-41
 49        android:roundIcon="@mipmap/begory_icon"
-49-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:18:9-48
+49-->D:\church\begory2\app\src\main\AndroidManifest.xml:18:9-48
 50        android:supportsRtl="true"
-50-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:19:9-35
+50-->D:\church\begory2\app\src\main\AndroidManifest.xml:19:9-35
 51        android:testOnly="true"
 52        android:theme="@style/AppTheme" >
-52-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:20:9-40
+52-->D:\church\begory2\app\src\main\AndroidManifest.xml:20:9-40
 53        <activity
-53-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:21:9-24:45
+53-->D:\church\begory2\app\src\main\AndroidManifest.xml:21:9-24:45
 54            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-54-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:22:13-85
+54-->D:\church\begory2\app\src\main\AndroidManifest.xml:22:13-85
 55            android:excludeFromRecents="true"
-55-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
+55-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:26:13-46
 56            android:exported="true"
-56-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
+56-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:27:13-36
 57            android:launchMode="standard"
-57-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:24:13-42
+57-->D:\church\begory2\app\src\main\AndroidManifest.xml:24:13-42
 58            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-58-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
+58-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:29:13-102
 59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-59-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
+59-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:30:13-72
 60        <activity
-60-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:25:9-30:70
+60-->D:\church\begory2\app\src\main\AndroidManifest.xml:25:9-30:70
 61            android:name="com.attendance.myproject.begory.presentationLayer.login.LoginActivity"
-61-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:26:13-97
+61-->D:\church\begory2\app\src\main\AndroidManifest.xml:26:13-97
 62            android:launchMode="singleTop"
-62-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:27:13-43
+62-->D:\church\begory2\app\src\main\AndroidManifest.xml:27:13-43
 63            android:screenOrientation="portrait"
-63-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:28:13-49
+63-->D:\church\begory2\app\src\main\AndroidManifest.xml:28:13-49
 64            android:theme="@style/AppThemeNoBar"
-64-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:29:13-49
+64-->D:\church\begory2\app\src\main\AndroidManifest.xml:29:13-49
 65            android:windowSoftInputMode="stateHidden|adjustResize" />
-65-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:30:13-67
+65-->D:\church\begory2\app\src\main\AndroidManifest.xml:30:13-67
 66        <activity
-66-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:31:9-43:20
+66-->D:\church\begory2\app\src\main\AndroidManifest.xml:31:9-43:20
 67            android:name="com.attendance.myproject.begory.presentationLayer.splash.SplashActivity"
-67-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:32:13-99
+67-->D:\church\begory2\app\src\main\AndroidManifest.xml:32:13-99
 68            android:screenOrientation="portrait"
-68-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:33:13-49
+68-->D:\church\begory2\app\src\main\AndroidManifest.xml:33:13-49
 69            android:theme="@style/AppThemeNoBar"
-69-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:34:13-49
+69-->D:\church\begory2\app\src\main\AndroidManifest.xml:34:13-49
 70            android:windowSoftInputMode="stateHidden|adjustResize" >
-70-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:35:13-67
+70-->D:\church\begory2\app\src\main\AndroidManifest.xml:35:13-67
 71            <intent-filter>
-71-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:37:13-41:29
+71-->D:\church\begory2\app\src\main\AndroidManifest.xml:37:13-41:29
 72                <action android:name="android.intent.action.MAIN" />
-72-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:38:17-69
-72-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:38:25-66
+72-->D:\church\begory2\app\src\main\AndroidManifest.xml:38:17-69
+72-->D:\church\begory2\app\src\main\AndroidManifest.xml:38:25-66
 73
 74                <category android:name="android.intent.category.LAUNCHER" />
-74-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:40:17-77
-74-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:40:27-74
+74-->D:\church\begory2\app\src\main\AndroidManifest.xml:40:17-77
+74-->D:\church\begory2\app\src\main\AndroidManifest.xml:40:27-74
 75            </intent-filter>
 76        </activity>
 77        <activity
-77-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:44:9-50:20
+77-->D:\church\begory2\app\src\main\AndroidManifest.xml:44:9-50:20
 78            android:name="com.attendance.myproject.begory.presentationLayer.main.MainActivity"
-78-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:45:13-95
+78-->D:\church\begory2\app\src\main\AndroidManifest.xml:45:13-95
 79            android:launchMode="singleTop"
-79-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:46:13-43
+79-->D:\church\begory2\app\src\main\AndroidManifest.xml:46:13-43
 80            android:screenOrientation="portrait"
-80-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:47:13-49
+80-->D:\church\begory2\app\src\main\AndroidManifest.xml:47:13-49
 81            android:theme="@style/AppTheme"
-81-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:48:13-44
+81-->D:\church\begory2\app\src\main\AndroidManifest.xml:48:13-44
 82            android:windowSoftInputMode="stateHidden|adjustResize" >
-82-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:49:13-67
+82-->D:\church\begory2\app\src\main\AndroidManifest.xml:49:13-67
 83        </activity>
 84        <activity
-84-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:52:13-55:55
+84-->D:\church\begory2\app\src\main\AndroidManifest.xml:52:13-55:55
 85            android:name="com.attendance.myproject.begory.presentationLayer.main.setting.addBlaBla.AddBlaBlaActivity"
-85-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:52:23-128
+85-->D:\church\begory2\app\src\main\AndroidManifest.xml:52:23-128
 86            android:launchMode="singleTop"
-86-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:53:17-47
+86-->D:\church\begory2\app\src\main\AndroidManifest.xml:53:17-47
 87            android:screenOrientation="portrait"
-87-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:55:17-53
+87-->D:\church\begory2\app\src\main\AndroidManifest.xml:55:17-53
 88            android:theme="@style/dialogTheme" />
-88-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:54:17-51
+88-->D:\church\begory2\app\src\main\AndroidManifest.xml:54:17-51
 89        <activity
-89-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:56:9-59:51
+89-->D:\church\begory2\app\src\main\AndroidManifest.xml:56:9-59:51
 90            android:name="com.attendance.myproject.begory.presentationLayer.main.setting.updateBlaBla.UpdateBlaBlaActivity"
-90-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:56:19-130
+90-->D:\church\begory2\app\src\main\AndroidManifest.xml:56:19-130
 91            android:launchMode="singleTop"
-91-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:57:13-43
+91-->D:\church\begory2\app\src\main\AndroidManifest.xml:57:13-43
 92            android:screenOrientation="portrait"
-92-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:59:13-49
+92-->D:\church\begory2\app\src\main\AndroidManifest.xml:59:13-49
 93            android:theme="@style/dialogTheme" />
-93-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:58:13-47
+93-->D:\church\begory2\app\src\main\AndroidManifest.xml:58:13-47
 94        <activity
-94-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:60:9-63:51
+94-->D:\church\begory2\app\src\main\AndroidManifest.xml:60:9-63:51
 95            android:name="com.attendance.myproject.begory.presentationLayer.main.setting.userExist.UserActivity"
-95-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:60:19-119
+95-->D:\church\begory2\app\src\main\AndroidManifest.xml:60:19-119
 96            android:launchMode="singleTop"
-96-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:61:13-43
+96-->D:\church\begory2\app\src\main\AndroidManifest.xml:61:13-43
 97            android:screenOrientation="portrait"
-97-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:63:13-49
+97-->D:\church\begory2\app\src\main\AndroidManifest.xml:63:13-49
 98            android:theme="@style/dialogTheme" />
-98-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:62:13-47
+98-->D:\church\begory2\app\src\main\AndroidManifest.xml:62:13-47
 99        <activity
-99-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:64:9-67:51
+99-->D:\church\begory2\app\src\main\AndroidManifest.xml:64:9-67:51
 100            android:name="com.attendance.myproject.begory.presentationLayer.main.setting.showTakedAttendance.ShowLevelAttendActivity"
-100-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:64:19-140
+100-->D:\church\begory2\app\src\main\AndroidManifest.xml:64:19-140
 101            android:launchMode="singleTop"
-101-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:65:13-43
+101-->D:\church\begory2\app\src\main\AndroidManifest.xml:65:13-43
 102            android:screenOrientation="portrait"
-102-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:67:13-49
+102-->D:\church\begory2\app\src\main\AndroidManifest.xml:67:13-49
 103            android:theme="@style/AppTheme" />
-103-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:66:13-44
+103-->D:\church\begory2\app\src\main\AndroidManifest.xml:66:13-44
 104        <activity
-104-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:68:9-71:51
+104-->D:\church\begory2\app\src\main\AndroidManifest.xml:68:9-71:51
 105            android:name="com.attendance.myproject.begory.presentationLayer.main.attendence.takeAttendance.LevelAttendActivity"
-105-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:68:19-134
+105-->D:\church\begory2\app\src\main\AndroidManifest.xml:68:19-134
 106            android:launchMode="singleTop"
-106-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:69:13-43
+106-->D:\church\begory2\app\src\main\AndroidManifest.xml:69:13-43
 107            android:screenOrientation="portrait"
-107-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:71:13-49
+107-->D:\church\begory2\app\src\main\AndroidManifest.xml:71:13-49
 108            android:theme="@style/AppTheme" />
-108-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:70:13-44
+108-->D:\church\begory2\app\src\main\AndroidManifest.xml:70:13-44
 109        <activity
-109-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:72:9-75:51
+109-->D:\church\begory2\app\src\main\AndroidManifest.xml:72:9-75:51
 110            android:name="com.attendance.myproject.begory.presentationLayer.main.changePassword.PasswordActivity"
-110-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:72:19-120
+110-->D:\church\begory2\app\src\main\AndroidManifest.xml:72:19-120
 111            android:launchMode="singleTop"
-111-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:73:13-43
+111-->D:\church\begory2\app\src\main\AndroidManifest.xml:73:13-43
 112            android:screenOrientation="portrait"
-112-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:75:13-49
+112-->D:\church\begory2\app\src\main\AndroidManifest.xml:75:13-49
 113            android:theme="@style/dialogTheme" />
-113-->E:\android_Projects\begoryy\app\src\main\AndroidManifest.xml:74:13-47
+113-->D:\church\begory2\app\src\main\AndroidManifest.xml:74:13-47
 114
 115        <service
-115-->[androidx.room:room-runtime:2.2.3] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\a1ae60501e1e4986588f31191c91f481\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+115-->[androidx.room:room-runtime:2.2.3] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\a1ae60501e1e4986588f31191c91f481\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
 116            android:name="androidx.room.MultiInstanceInvalidationService"
-116-->[androidx.room:room-runtime:2.2.3] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\a1ae60501e1e4986588f31191c91f481\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+116-->[androidx.room:room-runtime:2.2.3] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\a1ae60501e1e4986588f31191c91f481\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
 117            android:exported="false" />
-117-->[androidx.room:room-runtime:2.2.3] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\a1ae60501e1e4986588f31191c91f481\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+117-->[androidx.room:room-runtime:2.2.3] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\a1ae60501e1e4986588f31191c91f481\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
 118        <service
-118-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
+118-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:33:9-39:19
 119            android:name="com.google.firebase.components.ComponentDiscoveryService"
-119-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
+119-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:34:13-84
 120            android:directBootAware="true"
-120-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+120-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
 121            android:exported="false" >
-121-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
+121-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:35:13-37
 122            <meta-data
-122-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
+122-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:36:13-38:85
 123                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-123-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
+123-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:37:17-109
 124                android:value="com.google.firebase.components.ComponentRegistrar" />
-124-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
+124-->[com.google.firebase:firebase-auth:19.4.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\f3832ea512fc551a928f626f4257c982\jetified-firebase-auth-19.4.0\AndroidManifest.xml:38:17-82
 125            <meta-data
-125-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\6df36de25d814f8590e43dd9ef36e707\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+125-->[com.google.firebase:firebase-database:19.5.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\6df36de25d814f8590e43dd9ef36e707\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
 126                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-126-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\6df36de25d814f8590e43dd9ef36e707\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+126-->[com.google.firebase:firebase-database:19.5.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\6df36de25d814f8590e43dd9ef36e707\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
 127                android:value="com.google.firebase.components.ComponentRegistrar" />
-127-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\6df36de25d814f8590e43dd9ef36e707\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+127-->[com.google.firebase:firebase-database:19.5.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\6df36de25d814f8590e43dd9ef36e707\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
 128            <meta-data
-128-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:30:13-32:85
+128-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:30:13-32:85
 129                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-129-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:31:17-139
+129-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:31:17-139
 130                android:value="com.google.firebase.components.ComponentRegistrar" />
-130-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:32:17-82
+130-->[com.google.android.gms:play-services-measurement-api:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\c9e134d1c01c44ffeaa7a7190d1cea42\jetified-play-services-measurement-api-17.6.0\AndroidManifest.xml:32:17-82
 131            <meta-data
-131-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\ab7e6c8ccce3396919402821a5451e13\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+131-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\ab7e6c8ccce3396919402821a5451e13\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
 132                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-132-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\ab7e6c8ccce3396919402821a5451e13\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+132-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\ab7e6c8ccce3396919402821a5451e13\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
 133                android:value="com.google.firebase.components.ComponentRegistrar" />
-133-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\ab7e6c8ccce3396919402821a5451e13\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+133-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\ab7e6c8ccce3396919402821a5451e13\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
 134        </service>
 135
 136        <activity
-136-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+136-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
 137            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-137-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+137-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
 138            android:clearTaskOnLaunch="true"
-138-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+138-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
 139            android:screenOrientation="sensorLandscape"
-139-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+139-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
 140            android:stateNotNeeded="true"
-140-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+140-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
 141            android:theme="@style/zxing_CaptureTheme"
-141-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+141-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
 142            android:windowSoftInputMode="stateAlwaysHidden" />
-142-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\de9d34c37bb5505cbe4484cdc0cd6948\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+142-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\b6cd3bf992b5ee2739ef868599d208ea\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
 143        <activity
-143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 145            android:exported="false"
-145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-146-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+146-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\80c5167eddbdd7f0a0bae26700aecbe3\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 147
 148        <provider
-148-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+148-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
 149            android:name="com.google.firebase.provider.FirebaseInitProvider"
-149-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+149-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
 150            android:authorities="com.attendance.myproject.begory.firebaseinitprovider"
-150-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+150-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
 151            android:directBootAware="true"
-151-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+151-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
 152            android:exported="false"
-152-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+152-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
 153            android:initOrder="100" />
-153-->[com.google.firebase:firebase-common:19.3.1] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+153-->[com.google.firebase:firebase-common:19.3.1] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\98f7865de0f4478131083123ba5e0b14\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
 154
 155        <receiver
-155-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:29:9-33:20
+155-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:29:9-33:20
 156            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-156-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:30:13-85
+156-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:30:13-85
 157            android:enabled="true"
-157-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:31:13-35
+157-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:31:13-35
 158            android:exported="false" >
-158-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:32:13-37
+158-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:32:13-37
 159        </receiver>
 160
 161        <service
-161-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:35:9-38:40
+161-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:35:9-38:40
 162            android:name="com.google.android.gms.measurement.AppMeasurementService"
-162-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:36:13-84
+162-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:36:13-84
 163            android:enabled="true"
-163-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:37:13-35
+163-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:37:13-35
 164            android:exported="false" />
-164-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:38:13-37
+164-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:38:13-37
 165        <service
-165-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:39:9-43:72
+165-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:39:9-43:72
 166            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-166-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:40:13-87
+166-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:40:13-87
 167            android:enabled="true"
-167-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:41:13-35
+167-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:41:13-35
 168            android:exported="false"
-168-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:42:13-37
+168-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:42:13-37
 169            android:permission="android.permission.BIND_JOB_SERVICE" />
-169-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:43:13-69
+169-->[com.google.android.gms:play-services-measurement:17.6.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\1292fdff9fcdb49c0219950621c24969\jetified-play-services-measurement-17.6.0\AndroidManifest.xml:43:13-69
 170
 171        <meta-data
-171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cefabd5be5f720689d3c281169863901\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cefabd5be5f720689d3c281169863901\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 172            android:name="com.google.android.gms.version"
-172-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cefabd5be5f720689d3c281169863901\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+172-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cefabd5be5f720689d3c281169863901\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 173            android:value="@integer/google_play_services_version" />
-173-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cefabd5be5f720689d3c281169863901\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+173-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cefabd5be5f720689d3c281169863901\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 174
 175        <provider
-175-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+175-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 176            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-176-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+176-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 177            android:authorities="com.attendance.myproject.begory.lifecycle-process"
-177-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+177-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 178            android:exported="false"
-178-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+178-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 179            android:multiprocess="true" />
-179-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Moka\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+179-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\monic\.gradle\caches\transforms-2\files-2.1\cfca91139ab5d24e6c445c8577dcf33e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
 180    </application>
 181
 182</manifest>

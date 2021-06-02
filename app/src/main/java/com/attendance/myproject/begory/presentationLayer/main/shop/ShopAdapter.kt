@@ -16,20 +16,35 @@ import com.attendance.myproject.begory.data.Models.Gift
 import com.attendance.myproject.begory.data.Models.User
 import com.attendance.myproject.begory.presentationLayer.main.shop.ShopAdapter.ShopViewHolder
 import com.bumptech.glide.Glide
+import com.google.firebase.storage.FirebaseStorage
+import java.util.ArrayList
 
 
-class ShopAdapter(private val mContext: Context, private val mlist: List<Gift>,val user: User)
+class ShopAdapter(private val mContext: Context, private val mlist: List<Gift>,val user: User,)
     : RecyclerView.Adapter<ShopViewHolder?>() {
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ShopViewHolder {
         val view: View = LayoutInflater.from(viewGroup.context)
                 .inflate(R.layout.row_book_prize, viewGroup, false)
         return ShopViewHolder(view)
     }
+    init {
+        mPrizesList = mlist
+        mBookedPrizesList = user.selectedGifts!!
+    }
+    companion object {
+        lateinit var mPrizesList: List<Gift>
+        lateinit var mBookedPrizesList: ArrayList<Gift>
+    }
+        override fun onBindViewHolder(viewHolder: ShopViewHolder, i: Int) {
 
-    override fun onBindViewHolder(viewHolder: ShopViewHolder, i: Int) {
-        Glide.with(mContext)
-                .load(mlist[i].imagePath)
-                .into(viewHolder.imageView!!)
+        val ref2 = mlist[i].imagePath?.let {FirebaseStorage.getInstance()!!.reference.child(it) }
+        if (ref2 != null) {
+            ref2.downloadUrl.addOnSuccessListener(){
+                Glide.with(mContext)
+                        .load(it)
+                        .into(viewHolder.imageView!!)
+            }
+        }
         viewHolder.nametv?.text = mlist[i].name
         viewHolder.costtv?.text =mlist[i].price!!.toString()+ " " + mContext.getString(R.string.point)
         if (mlist[i].booked==true)
@@ -72,7 +87,6 @@ class ShopAdapter(private val mContext: Context, private val mlist: List<Gift>,v
             btn?.setOnClickListener(View.OnClickListener(){
                 val pos = adapterPosition;
                 if (pos != RecyclerView.NO_POSITION){
-                    val clickedDataItem = mlist[pos];
                     if (mlist[pos].initbooked==true)
                     {
                         user.price!! += mlist[pos].price!!

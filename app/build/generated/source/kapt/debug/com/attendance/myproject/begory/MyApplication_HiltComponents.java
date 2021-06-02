@@ -24,6 +24,7 @@ import com.attendance.myproject.begory.presentationLayer.main.setting.updateBlaB
 import com.attendance.myproject.begory.presentationLayer.main.setting.userExist.UserActivity_GeneratedInjector;
 import com.attendance.myproject.begory.presentationLayer.main.setting.userExist.UserViewModel_HiltModule;
 import com.attendance.myproject.begory.presentationLayer.main.shop.ShopFragment_GeneratedInjector;
+import com.attendance.myproject.begory.presentationLayer.main.shop.ShopViewModel_HiltModule;
 import com.attendance.myproject.begory.presentationLayer.splash.SplashActivity_GeneratedInjector;
 import com.attendance.myproject.begory.presentationLayer.splash.SplashViewModel_HiltModule;
 import dagger.Binds;
@@ -164,6 +165,7 @@ public final class MyApplication_HiltComponents {
           ActivityCBuilderModule.class,
           PasswordViewModel_HiltModule.class,
           ProfileViewModel_HiltModule.class,
+          ShopViewModel_HiltModule.class,
           ShowLevelAttendViewModel_HiltModule.class,
           SplashViewModel_HiltModule.class,
           UpdateBlaBlaViewModel_HiltModule.class,

@@ -13,10 +13,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.attendance.myproject.begory.R
 import com.attendance.myproject.begory.presentationLayer.main.setting.SettingsAdapter
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.fragment_shop.*
 import java.util.ArrayList
 
 @AndroidEntryPoint
-class ShopFragment : Fragment() {
+class ShopFragment : Fragment(), UpdatePoints {
     private var recyclerView: RecyclerView? = null
     private lateinit var mList: ArrayList<Int>
     var recyclerViewAdapter: SettingsAdapter? = null
@@ -93,5 +94,9 @@ class ShopFragment : Fragment() {
         mItems.add(R.string.m_edit_admin)
         mItems.add(R.string.m_levels_attendance)
         return mItems
+    }
+
+    override fun onUpdate(points: Double) {
+        tv_current_points.text = points.toString()
     }
 }
