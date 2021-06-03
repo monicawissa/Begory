@@ -4,6 +4,7 @@ import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
 import com.attendance.myproject.begory.Utilities.ggle.Event
+import com.attendance.myproject.begory.data.Models.Attendance
 import com.attendance.myproject.begory.data.Models.Gift
 import com.attendance.myproject.begory.data.Models.User
 import com.attendance.myproject.begory.data.Models.remote.FirebaseFilterType
@@ -21,13 +22,12 @@ class ShopViewModel  @ViewModelInject constructor(private val appRepository: App
     private val _mGiftListListener= MutableLiveData<Boolean>()
     val mGiftListListener: LiveData<Boolean>
         get() = _mGiftListListener
-
     var mTitleTV = savedStateHandle.getLiveData<String>("settingType").value
 
 //    //Btn check Available
-//    private val _isCheckBtnAvailable = MutableLiveData<Boolean>()
-//    val isCheckBtnAvailable: LiveData<Boolean>
-//        get() = _isCheckBtnAvailable
+    private val _isCheckBtnAvailable = MutableLiveData<Boolean>()
+    val isCheckBtnAvailable: LiveData<Boolean>
+        get() = _isCheckBtnAvailable
     //progressbar
     private val _dataLoading = MutableLiveData<Boolean>()
     val dataLoading: LiveData<Boolean>
@@ -54,8 +54,10 @@ class ShopViewModel  @ViewModelInject constructor(private val appRepository: App
     init {
         getUser()
         _mGiftListListener.value=false
+        getGiftsList()
+
     }
-    private  var user: User?=null
+     var user: User?=null
 
     private fun getUser() {
         user=appRepository.getUser()
@@ -67,6 +69,7 @@ class ShopViewModel  @ViewModelInject constructor(private val appRepository: App
         appRepository.filterGift(user!!.studentLevel!!, object : IRemoteDataSource.ShowGiftsCallback {
             override fun onResponse(gifts: List<Gift>) {
                 mGiftList.addAll(gifts)
+                _mGiftListListener.value=true
                 _dataLoading.value = false
             }
 
@@ -78,5 +81,12 @@ class ShopViewModel  @ViewModelInject constructor(private val appRepository: App
         })
 
     }
+    fun update() {}
+    fun btnadd(){
+        _isCheckBtnAvailable.value = false
+                _isCheckBtnAvailable.value = true
+                _dataLoading.value = false
+          
 
+    }
 }

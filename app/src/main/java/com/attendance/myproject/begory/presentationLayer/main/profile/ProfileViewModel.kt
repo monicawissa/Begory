@@ -30,8 +30,8 @@ class ProfileViewModel  @ViewModelInject constructor(private val appRepository: 
     val mobile2 = MutableLiveData<String>()
     val password= MutableLiveData<String>()
     val address= MutableLiveData<String>()
-    val balanceBegory= MutableLiveData<String>()
-    val balanceEqlomat= MutableLiveData<String>()
+    val balanceReal= MutableLiveData<String>()
+    val balanceAfterBook= MutableLiveData<String>()
     val studentLevel= MutableLiveData<String>()
     //var mTitleTV = savedStateHandle.getLiveData<String>("settingType").value
     var selectedData:String=""
@@ -92,8 +92,8 @@ class ProfileViewModel  @ViewModelInject constructor(private val appRepository: 
         name.value=usertmp.name!!
         mobile.value=usertmp.mobile!!
         mobile2.value=usertmp.mobile2!!
-        balanceBegory.value=usertmp.balanceBegory.toString()
-        balanceEqlomat.value=usertmp.balanceEqlomat.toString()
+        balanceReal.value=usertmp.realPrice.toString()
+        balanceAfterBook.value=usertmp.price.toString()
         password.value=usertmp.password!!
         address.value=usertmp.address!!
         if(usertmp.studentLevel==null)

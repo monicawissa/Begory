@@ -67,7 +67,7 @@
             android:layout_marginEnd="20dp"
             android:src="@drawable/logout"
             android:onClick="@{()-> profileViewModel.logout()}"
-            android:tint="@color/secondaryLightColor"/>
+            app:tint="@color/secondaryLightColor" />
 
       </RelativeLayout>
       <LinearLayout
@@ -95,7 +95,7 @@
                 android:layout_centerInParent="true"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="بيجوري"
+                android:text="النقاط"
                 android:textSize="20sp" />
 
             <TextView
@@ -105,7 +105,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="@{profileViewModel.balanceBegory}"
+                android:text="@{profileViewModel.balanceReal}"
                 android:textSize="20sp" />
 
           </RelativeLayout>
@@ -130,7 +130,7 @@
                 android:layout_centerInParent="true"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="اكلومات"
+                android:text="المتبقي"
                 android:textSize="20sp" />
 
             <TextView
@@ -140,7 +140,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:text="@{profileViewModel.balanceEqlomat}"
+                android:text="@{profileViewModel.balanceAfterBook}"
                 android:textSize="20sp" />
 
           </RelativeLayout>
