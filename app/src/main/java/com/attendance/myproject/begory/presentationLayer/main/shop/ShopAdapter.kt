@@ -20,7 +20,7 @@ import com.google.firebase.storage.FirebaseStorage
 import java.util.ArrayList
 
 
-class ShopAdapter(private val mContext: Context, private val mlist: List<Gift>,val user: User,)
+class ShopAdapter(private val mContext: Context, private val mlist: List<Gift>,val user: User,val updatePoints: UpdatePoints)
     : RecyclerView.Adapter<ShopViewHolder?>() {
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ShopViewHolder {
         val view: View = LayoutInflater.from(viewGroup.context)
@@ -89,18 +89,24 @@ class ShopAdapter(private val mContext: Context, private val mlist: List<Gift>,v
                 if (pos != RecyclerView.NO_POSITION){
                     if (mlist[pos].initbooked==true)
                     {
-                        user.price!! += mlist[pos].price!!
-                        user.selectedGifts!!.remove( mlist[pos])
 
                         mlist[pos].initbooked = false
+
+                        user.selectedGifts!!.remove( mlist[pos])
+                        var user2:User=user
+                        user2!!.price = user2!!.price?.plus(mlist[pos]!!.price!!)
+                        updatePoints.onUpdate(user2)
                     }
                     else
                     {
                         if (mlist[pos].price!! <= user.price!!)
                         {
-                            user.price!! -= mlist[pos].price!!
+                            //user.price!! -= mlist[pos].price!!
                             mlist[pos].initbooked = true
                             user.selectedGifts!!.add( mlist[pos])
+                            var user2:User=user
+                            user2!!.price = user2!!.price?.minus(mlist[pos]!!.price!!)
+                            updatePoints.onUpdate(user2)
                         }
                         else
                             Toast.makeText(mContext,R.string.points_not_enough,Toast.LENGTH_SHORT).show()

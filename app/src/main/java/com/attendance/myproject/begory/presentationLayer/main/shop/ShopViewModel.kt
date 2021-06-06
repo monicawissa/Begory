@@ -86,7 +86,7 @@ class ShopViewModel  @ViewModelInject constructor(private val appRepository: App
         _isCheckBtnAvailable.value = false
                 _isCheckBtnAvailable.value = true
                 _dataLoading.value = false
-          
+
 
     }
 }

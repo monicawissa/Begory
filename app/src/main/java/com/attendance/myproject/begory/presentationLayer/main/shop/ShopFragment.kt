@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.attendance.myproject.begory.R
+import com.attendance.myproject.begory.data.Models.User
 import com.attendance.myproject.begory.databinding.FragmentShopBinding
 import com.attendance.myproject.begory.presentationLayer.main.profile.ProfileViewModel
 import com.attendance.myproject.begory.presentationLayer.main.setting.SettingsAdapter
@@ -91,7 +92,7 @@ class ShopFragment : Fragment(R.layout.fragment_shop), UpdatePoints {
         //Log.d(ContentValues.TAG, "showMessage: "+string)
     }
     private fun initRecyclerView() {
-        recyclerViewAdapter = ShopAdapter(requireContext(), shopViewModel.mGiftList,shopViewModel.user!!)
+        recyclerViewAdapter = ShopAdapter(requireContext(), shopViewModel.mGiftList,shopViewModel.user!!,this)
         binding.rvMenu.adapter = recyclerViewAdapter
         recyclerViewAdapter!!.notifyDataSetChanged()
         binding.rvMenu.smoothScrollToPosition(0)
@@ -132,7 +133,8 @@ class ShopFragment : Fragment(R.layout.fragment_shop), UpdatePoints {
 
 
 
-    override fun onUpdate(points: Double) {
-
-    }
+    override fun onUpdate(points: User) {
+        shopViewModel.user=points
+        initRecyclerView()
+        tv_current_points.text=points.price.toString()    }
 }
